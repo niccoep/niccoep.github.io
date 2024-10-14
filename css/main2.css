@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'VCR';
+    src: url('../fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'VCR';
+    background-color: #323232;
+}
+
+
+
+
+a {
+  color: #23cc00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #86ff6d;
+}
+
+.container {
+    height: 100%;
+    overflow: hidden;
+    color: #d4d4d4;
+    #padding: 10px;
+    box-shadow: -4px -4px 6px 1px rgba(10,30,8,0.5);
+    border-radius:20px;
+    margin: 20px;
+    
+}
+
+.looq {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #122908;
+    padding: 20px;
+}
+.looq-text {
+    flex: 1;
+}
+.looq-img {
+    background-color: grey;
+    flex: 1;
+}
+.looq-img img{
+    width:10%;
+}
+
+
+
+.img-container-heatsink {
+    display: flex;
+    justify-content: none;
+    align-items: center;
+}
+.img-container-heatsink img {
+    flex: 1;
+    max-width: 30%;

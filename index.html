@@ -1,120 +1,71 @@
 <!DOCTYPE html>
-<html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nicco Pompili</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <header>
-        <h1>Hi, my name is Nicco Pompili</h1>
-    </header>
     <div class="container">
-        <div class="column">
-            <div class="column-content">
-                <h2>About me</h2>
-                <img src="images/me.JPEG" alt="me" width=100%>
-                <p>Hello, here are some things I like to do</p>
-                <img src="images/running.jpg" alt="running" width=100%>
-                <img src="images/surf.jpg" alt="surf" width=100%>
-                <img src="images/thursday.jpg" alt="thursday" width=100%>
-                <img src="images/aeroad.jpg" alt="my bike" width=100%>
-                <img src="images/fish.jpg" alt="fish" width=100%>
-            </div>
-            
+        <div class="item header">
+            <div class="whoami">Nicco Pompili</div>
+ <div class="skills">| Software | Hardware | Algorithims |</div>
         </div>
-        <div class="column">
-            <div class="column-content">
-                <h2>Project</h2>
-                <p></p>
-            </div>
-            
-        </div>
-        <div class="column">
-            <div class="column-content">
-                <h2>Project</h2>
-                <p></p>
-            </div>
-            
-        </div>
-        <div class="column">
-            <div class="column-content">
-                <h2>Project</h2>
-                <p></p>
-            </div>
-            
-        </div>
-        <div class="column">
-            <div class="column-content education">
-                <h2>Education</h2>
-                <p><a href='https://ucsd.edu/'>UCSD</a> | 2019-2024</p>
-                <p></p>
-                <p>Math and Computer Science <a href="https://math.ucsd.edu/students/undergraduate/ma30-math-computer-science-b-s">MA30</a></p>
-            </div>
-            
-        </div>
-        <div class="column">
-            <div class="column-content experience">
-                <h2>Experience</h2>
+        <div class="item looq">
 
-                <p><a href="https://looq.ai/">Looq</a> | 07/2024 - current</p>
-                Software engineer
+            <p><a href="https://looq.ai/">Looq</a> | 07/2024 - current</p>
+            Software engineer
+            <ul>
+                <li>Computer vision</li>
+                <li>Internal tools (software pipeline / AWS)</li>
+            </ul>
+            Hardware engineer
+            <ul>
+                <li>Q-cam hardware design</li>
                 <ul>
-                    <li>Computer vision</li>
-                    <li>Internal tools (software pipeline / AWS)</li>
-                </ul>
-                Hardware engineer
-                <ul>
-                    <li>Q-cam hardware design</li>
-                    <ul>
-                        <li>CAD DFM</li>
-                        <li>3d printing</li>
-                    </ul>
-        
-                    <li>Process engineering</li>
-                    <ul>
-                        <li>manufacturing process improvements</li>
-                        <li>bash/python scripting for firmware flashing automation</li>
-                        <li>integration with AWS for </li>
-                    </ul>
-                </ul>
-                <br>
-                <br>
-                <p><a href="https://dwe.ai/">DWE</a> | 08/2023 - 06/2024</p>
-                Software engineer
-                <ul>
-                    <li>computer vision</li>
-                    <li>c++, openGL, CUDA</li>
-                    <li>real-time stereo vision depth mapping</li>
-                    <li>120+fps @ VGA, 80+ fps @ 1080p</li>
-                    <li>custom parrallel <a href="https://www.mathworks.com/help/visionhdl/ug/stereoscopic-disparity.html">SGBM</a> implimentation on GPU</li>
-                    <li>full stack designed and written by myself</li>
-                    
+                    <li>CAD DFM</li>
+                    <li>3d printing</li>
                 </ul>
 
-                <br>
-                Machining
+                <li>Process engineering</li>
                 <ul>
-                    <li>internal heat sink for <a href="https://dwe.ai/collections/lighting">ultraLUX underwater light</a></li>
+                    <li>manufacturing process improvements</li>
+                    <li>bash/python scripting for firmware flashing automation</li>
+                    <li>AWS integration for internal device tracking</li>
                 </ul>
-                <div class="img-container-heatsink">
-                <img src="images/heatsink0.jpg" alt="hs0" >
-                <img src="images/heatsink1.jpg" alt="hs1" >
-                <img src="images/heatsink2.jpg" alt="hs2" >
-                </div>
-
-                <br>
-                <br>
-    
-
+            </ul>
             </div>
+        <div class="item dwe">
+            <p><a href="https://dwe.ai/">DWE</a> | 08/2023 - 06/2024</p>
             
+            Software engineer
+            <ul>
+                <li>computer vision</li>
+                <li>c++, openGL, CUDA</li>
+                <li>real-time stereo vision depth mapping</li>
+                <li>120+fps @ VGA, 80+ fps @ 1080p</li>
+                <li>custom parrallel <a href="https://www.mathworks.com/help/visionhdl/ug/stereoscopic-disparity.html">SGBM</a> implimentation on GPU</li>
+                <li>full stack designed and written by myself</li>
+                
+            </ul>
+
+            <br>
+            Select Machining Example 
+            <ul>
+                <li>pre-production machingin of internal heat sink for <a href="https://dwe.ai/collections/lighting">ultraLUX underwater light</a></li>
+                <li>Lathe: Sharp 1440F</li>
+                <li>Bridgeport: Sharp TMV-DVS-MP-3</li>
+            </ul>
+
+            <div class="img-container">
+
+                <div class="img-wrapper"><img src="images/heatsink0.png" alt="hs0" ></div>
+                <div class="img-wrapper"><img src="images/heatsink1.png" alt="hs1" ></div>
+                <div class="img-wrapper"><img src="images/heatsink2.png" alt="hs2" ></div>
+            </div>
         </div>
     </div>
+
 </body>
-    
-</html>
 
