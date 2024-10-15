@@ -98,6 +98,9 @@ body {
     border-radius:10px;
 }
 
+.text {
+    padding: 20px;
+}
 
 a {
   color: #23cc00;
